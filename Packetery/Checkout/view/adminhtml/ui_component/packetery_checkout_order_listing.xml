@@ -209,15 +209,6 @@
                 </item>
             </argument>
         </column>
-        <column name="delivery_destination" class="Packetery\Checkout\Ui\Component\Order\Listing\Column\DeliveryDestination">
-            <argument name="data" xsi:type="array">
-                <item name="config" xsi:type="array">
-                    <item name="sortable" xsi:type="boolean">false</item>
-                    <item name="filter" xsi:type="string">text</item>
-                    <item name="label" xsi:type="string" translate="true">Pickup point address</item>
-                </item>
-            </argument>
-        </column>
         <column name="exported_transformed" class="Packetery\Checkout\Ui\Component\Order\Listing\Column\YesNo">
             <argument name="data" xsi:type="array">
                 <item name="options" xsi:type="object">Packetery\Checkout\Ui\Component\YesNoSelect</item>
